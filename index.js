@@ -5,7 +5,8 @@ function produceDrivingRange(range) {
     if( value > 0  ) {
       return `within range by ${value}`;
     }
-    else
-    return false;
+    else{
+      return `${|value|} blocks out of range`
+    }
   }
 }

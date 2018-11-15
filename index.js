@@ -1,10 +1,10 @@
 function produceDrivingRange(range) {
   return function(a, b){
-    let distance = b - a;
+    let distance = parseInt(b) - parseInt(a);
     if( range - distance > 0  ) {
       return true;
     }
-    else 
+    else
     return false;
   }
 }

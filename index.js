@@ -1,8 +1,8 @@
 function produceDrivingRange(range) {
   return function(a, b){
       let distance = parseInt(b) - parseInt(a);
-      let value = range - distance;
-      if( value > 0  ) {
+      let diff = range - distance;
+      if( diff > 0  ) {
         return `within range by ${value}`;
       }
       else{

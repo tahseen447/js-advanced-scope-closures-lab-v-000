@@ -3,10 +3,10 @@ function produceDrivingRange(range) {
       let distance = parseInt(b) - parseInt(a);
       let diff = range - distance;
       if( diff > 0  ) {
-        return `within range by ${value}`;
+        return `within range by ${diff}`;
       }
       else{
-        return `${|value|} blocks out of range`;
+        return `${|diff|} blocks out of range`;
       }
     }
   }

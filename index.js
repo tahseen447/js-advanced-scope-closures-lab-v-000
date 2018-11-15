@@ -1,3 +1,6 @@
-function produceDrivingRange(distance) {
-  return function()
+function produceDrivingRange(range) {
+  return function(a, b){
+    let distance = b - a;
+    if( range - distance )
+  }
 }
